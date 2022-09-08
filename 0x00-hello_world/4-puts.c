@@ -3,6 +3,13 @@
  * this file prints a string.
  * 2022 GC licenced under bekalu's eyes bruh lol.
  */
+#include <stdio.h>
+
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 
 int main(void)
 {
