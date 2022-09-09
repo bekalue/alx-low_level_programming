@@ -11,20 +11,10 @@ int main(void)
 {
 	int alphabets;
 
-	alphabets = 'a';
-
-	while(alphabets < 'z')
-	{
+	for (alphabets = 'a'; alphabets <= 'z'; alphabets++)
 		putchar(alphabets);
-		alphabets++;
-	}
-	alphabets = 'A';
-
-	while(alphabets = 'Z')
-	{
+	for (alphabets = 'A'; alphabets <= 'Z'; alphabets++)
 		putchar(alphabets);
-		alphabets++;
-	}
 	putchar('\n');
 	return (0);
 }
