@@ -18,7 +18,7 @@ int main(void)
 	}
 	hexa = 97;
 
-	while (hexa < 123)
+	while (hexa < 103)
 	{
 		putchar(hexa);
 		hexa++;
