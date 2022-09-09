@@ -13,7 +13,7 @@ int main(void)
 	while (num < 58)
 	{
 		putchar(num);
-		while (cout < 9)
+		while (count < 9)
 		{
 			putchar(' ');
 			putchar(',');
