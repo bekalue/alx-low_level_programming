@@ -11,7 +11,7 @@ int main(void)
 {
 	int reverse_alphabet = 'z';
 
-	while (reverse_alphabet > 'a')
+	while (reverse_alphabet >= 'a')
 	{
 		putchar(reverse_alphabet);
 		reverse_alphabet--;
