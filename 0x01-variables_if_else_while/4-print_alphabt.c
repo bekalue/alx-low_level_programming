@@ -15,11 +15,8 @@ int main(void)
 
 	while (alphabets <= 'z')
 	{
-		if (alphabets == 'e')
-			continue;
-		else if (alphabets == 'q')
-			continue;
-		putchar(alphabets);
+		if (alphabets != 'e' && alphabets != 'q')
+			putchar(alphabets);
 		alphabets++;
 	}
 	putchar('\n');
