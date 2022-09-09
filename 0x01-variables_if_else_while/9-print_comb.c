@@ -8,12 +8,16 @@
 int main(void)
 {
 	int num = 48;
+	int count = 0;
 
 	while (num < 58)
 	{
 		putchar(num);
-		putchar(' ');
-		putchar(',');
+		while (cout < 9)
+		{
+			putchar(' ');
+			putchar(',');
+		}
 		num++;
 	}
 	putchar('\n');
