@@ -20,7 +20,7 @@ int main(void)
 			k = 48;
 			while (k < 58)
 			{
-				if (n < m < k)
+				if (n < m && m < k)
 				{
 					putchar(n);
 					putchar(m);
