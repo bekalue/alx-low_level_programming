@@ -11,7 +11,7 @@ int main(void)
 {
 	int alphabets = 'a';
 
-	while (alphabets < 'z')
+	while (alphabets <= 'z')
 	{
 		putchar(alphabets);
 		alphabets++;
