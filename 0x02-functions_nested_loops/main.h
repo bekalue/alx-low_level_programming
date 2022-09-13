@@ -14,3 +14,9 @@ int _putchar(char c);
  * returns: 0 (success)
  */
 void print_alphabet(void);
+/**
+ * print_alphabet - prints alphabets 10 times.
+ *
+ * returns: 0 (success)
+ */
+void print_alphabet_x10(void);
