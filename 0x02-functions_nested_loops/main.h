@@ -1,1 +1,1 @@
-printf("_putchar");
+write(2, "_putchar\n",9);
