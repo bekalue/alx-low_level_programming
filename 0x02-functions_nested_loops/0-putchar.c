@@ -1,21 +1,18 @@
 #include "main.h"
 /**
- * main - Entry point
+ * main - Prints _putchar followed by new line.
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
+    char word[] = "_putchar\n";
+    int char_counter = 0;
 
-char Z[] = "_putchar\n";
-int p = 0;
-
-while (p < 9)
-{
-	_putchar(Z[p]);
-	p++;
-}
-
-return (0);
-
+    while (char_counter < 10)
+    {
+        _putchar(word[char_counter]);
+        char_counter++;
+    }
+    return (0);
 }
