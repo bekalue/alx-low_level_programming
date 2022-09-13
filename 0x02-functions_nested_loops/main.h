@@ -13,4 +13,4 @@ int _putchar(char c);
  *
  * returns: 0 (success)
  */
-void print_alphabet();
+void print_alphabet(void);
