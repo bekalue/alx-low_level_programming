@@ -9,7 +9,7 @@ void print_alphabet_x10(void)
 	int lines, alphabets;
 
 	lines = 0;
-	while (lines < 11)
+	while (lines < 10)
 	{
 		alphabets = 'a';
 		while (alphabets <= 'z')
