@@ -51,3 +51,9 @@ int _abs(int n);
  * Return: last digit of number
  */
 int print_last_digit(int nld);
+/**
+ * jack_bauer - print every minute of a day
+ * Description: print minutes 00:00 to 23:59
+ */
+
+void jack_bauer(void);
