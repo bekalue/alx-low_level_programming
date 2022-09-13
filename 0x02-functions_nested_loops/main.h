@@ -1,1 +1,11 @@
-write(1, "_putchar\n",9);
+void print_alphabet(void)
+{
+	char alphabets = 'a';
+
+	while (alphabets <= 'z')
+	{
+		putchar(alphabets);
+		alphabets++;
+	}
+	putchar('\n');
+}
