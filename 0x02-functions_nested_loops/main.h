@@ -26,3 +26,10 @@ void print_alphabet_x10(void);
  * Return: 1 if losercase or 0 if not
  */
 int _islower(int c);
+/**
+ * _isalpha - determines if the given character is aplhabetice
+ * @c: the character to be evaltaed as alphabetic or not
+ *
+ * Return: 0 is the letter is alphabptic otherwise 1
+ */
+int _isalpha(int c);
