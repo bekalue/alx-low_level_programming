@@ -57,7 +57,6 @@ int print_last_digit(int nld);
  */
 
 void jack_bauer(void);
-#include "main.h"
 /**
  * times_table - print multiplication table
  */
