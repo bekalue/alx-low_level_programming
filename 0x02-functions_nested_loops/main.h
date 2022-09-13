@@ -1,11 +1,9 @@
-void print_alphabet(void)
-{
-	char alphabets = 'a';
+#include <stdio.h>
 
-	while (alphabets <= 'z')
-	{
-		_putchar(alphabets);
-		alphabets++;
-	}
-	_putchar('\n');
+void print_alphabet(void);
+
+int main()
+{
+	print_alphabet();
+	return (0);
 }
