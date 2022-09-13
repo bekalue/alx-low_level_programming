@@ -45,3 +45,9 @@ int print_sign(int n);
  * Return: absolute value
  */
 int _abs(int n);
+/**
+ * print_last_digit - print last digit of integer
+ * @nld: integer argument
+ * Return: last digit of number
+ */
+int print_last_digit(int nld);
