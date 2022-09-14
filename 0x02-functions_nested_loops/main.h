@@ -73,7 +73,6 @@ int add(int a, int b);
  * @n: integer argument
  */
 void print_to_98(int n);
-#include "main.h"
 
 /**
  * print_times_table - prints the n times table, starting with 0
