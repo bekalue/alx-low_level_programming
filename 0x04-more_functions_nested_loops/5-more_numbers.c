@@ -2,28 +2,21 @@
 
 void more_numbers(void)
 {
-	int lines, num1, num2;
+	int lines;
+	char num;
 
-	lines = 48;
-	while (lines < 58)
+	lines = 0;
+	while (lines < 10)
 	{
-		num1 = 48;
-		while (num1 < 58)
+		num = 0;
+		while (num < 14)
 		{
-			_putchar(num1);
-			num1++;
-		}
-		num1 = 49;
-		while(num1 < 50)
-		{
-			num2 = 48;
-			while(num2 < 53)
+			if (num > 9)
 			{
-				_putchar(num1);
-				_putchar(num2);
-				num2++;
+				_putchar((num / 10) + '0');
+				_putchar((num % 10) + '0');
 			}
-			num1++;
+			num++;
 		}
 		_putchar('\n');
 		lines++;
