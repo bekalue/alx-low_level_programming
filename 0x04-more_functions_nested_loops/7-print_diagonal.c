@@ -1,15 +1,20 @@
 #include "main.h"
-
+/**
+ * print_diagonal - asd
+ * @n: ad
+ */
 void print_diagonal(int n)
 {
 	int i;
+	int b;
 
-
-	i = 0;
-	while (i < n)
+	for (i = 1; i <= n; i++)
 	{
-		_putchar('\');
-		i++;
+		for (b = 1; b < i; b++)
+			_putchar(' ');
+		_putchar('\\');
+		if (i != n)
+			_putchar('\n');
 	}
 	_putchar('\n');
 }
