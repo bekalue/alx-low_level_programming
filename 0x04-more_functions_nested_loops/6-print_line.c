@@ -5,16 +5,9 @@
  */
 void print_line(int n)
 {
-	int i;
+    int i;
 
-	i = 0;
-	while( i < n)
-	{
-		if (i != 0)
-		{
-			_putchar('_');
-		}
-		i++;
-	}
-	_putchar('\n');
+    for (i = 0; i < n; i++)
+        _putchar('_');
+    _putchar('\n');
 }
