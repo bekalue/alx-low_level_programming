@@ -9,7 +9,7 @@ void rev_string(char *s)
 		sum++;
 		s++;
 	}
-
+	s--;
 	for (i = sum; i >= 0; i--)
 	{
 		_putchar(*s);
