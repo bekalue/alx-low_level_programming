@@ -10,9 +10,10 @@ void rev_string(char *s)
 		s++;
 	}
 
-	for (i = sum; i >=0; i--)
+	for (i = sum; i >= 0; i--)
 	{
-		_putchar(*(s + i));
+		_putchar(*s);
+		s--;
 	}
 	_putchar('\n');
 }
