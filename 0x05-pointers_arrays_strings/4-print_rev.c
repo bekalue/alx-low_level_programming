@@ -18,14 +18,6 @@ void print_rev(char *s)
 	}
 	for (x = length - 1; x >= 0; x--)
 	{
-		for(i = 0; i < length - 1; i++)
-		{
-			s[x] = r[i];
-		}
-	}
-
-	for (i = 0; i < length - 1; i++)
-	{
 		_putchar(*s++);
 	}
 	_putchar('\n');
