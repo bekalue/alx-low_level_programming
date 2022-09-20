@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * _strcpy - See description
  * @dest: char type string
@@ -9,17 +10,13 @@
 */
 char *_strcpy(char *dest, char *src)
 {
-	int length, index, i;
+	int i;
 
-	while (src[index++])
-	{
-		length++;
-	}
-
-	for (i = 0; i < length; i++)
+	for (i = 0; src[i] != '\0'; i++)
 	{
 		dest[i] = src[i];
 	}
-	dest[length] = '\0';
+	dest[i] = '\0';
+
 	return (dest);
 }
