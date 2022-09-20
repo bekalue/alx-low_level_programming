@@ -1,7 +1,8 @@
 #include "main.h"
+
 char *_strcpy(char *dest, char *src)
 {
-	int length, index;
+	int length, index, i;
 
 	while (src[index++])
 	{
