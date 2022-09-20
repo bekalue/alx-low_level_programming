@@ -7,14 +7,14 @@
  */
 void puts2(char *str)
 {
-	int length = 0, i;
+	int t, length = 0, i;
 
 	while (*str != '\0')
 	{
 		length++;
 		str++;
 	}
-	int t = length - 1;
+	t = length - 1;
 
 	for (i = 0; i <= t; i++)
 	{
