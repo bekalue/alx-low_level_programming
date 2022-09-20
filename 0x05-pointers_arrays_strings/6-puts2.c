@@ -10,9 +10,9 @@ void puts2(char *str)
 		str++;
 	}
 
-	for (i = 0; i < length; i++)
+	for (i = 0; i < length; i += 2)
 	{
-		_putchar(*str);
+		_putchar(*(str + i));
 		str += 2;
 	}
 	_putchar('\n');
