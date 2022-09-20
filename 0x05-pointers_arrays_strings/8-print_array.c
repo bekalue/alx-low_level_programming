@@ -6,9 +6,12 @@ void print_array(int *a, int n)
 
 	for (index = 0; index < n; index++)
 	{
-		_putchar(a[index]);
-		_putchar(',');
-		_putchar(' ');
+		_puchar(a[index]);
+		if (!(index == (n - 1)))
+		{
+			_putchar(',');
+			_putchar(' ');
+		}
 	}
 	_putchar('\n');
 }
