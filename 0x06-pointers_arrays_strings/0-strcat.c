@@ -1,8 +1,16 @@
 #include "main.h"
-
+/**
+ * _strcat - function that concatenates
+ *          two strings.
+ *
+ * @dest: pointer to destnation input
+ * @src: pointer to source input
+ *
+ * Return: pointer to resulting string @dest
+*/
 char *_strcat(char *dest, char *src)
 {
-	int index, dest_len, len = 0;
+	int index, len = 0;
 
 	while (dest[index++])
 	{
