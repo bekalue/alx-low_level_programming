@@ -3,14 +3,17 @@
  * cap_string - change all strings to title
  * @str: pointer
  *
- * Return: str
+ * Return: str that changed
  */
 char *cap_string(char *str)
 {
-	int i;
+	int index = 0;
 
-	for (i = 0; str[i] != '\0'; i++)
+	while (str[index])
 	{
+		while (!(str[index] >= 'a' && str[index] <= 'z'))
+			index++;
+
 		if (str[index - 1] == ' ' ||
 		    str[index - 1] == '\t' ||
 		    str[index - 1] == '\n' ||
@@ -25,16 +28,10 @@ char *cap_string(char *str)
 		    str[index - 1] == '{' ||
 		    str[index - 1] == '}' ||
 		    index == 0)
-		{
-			if (str[i] >= 'a' && str[i] <= 'z')
-				str[i] = str[i] - 32;
-		}
+			str[index] -= 32;
 
-		else
-		{
-			if (str[i] >= 'A' && str[i] <= 'Z')
-				str[i] = str[i] + 32;
-		}
+		index++;
 	}
+
 	return (str);
 }
