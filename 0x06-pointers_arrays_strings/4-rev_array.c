@@ -22,10 +22,5 @@ void reverse_array(int *a, int n)
 		m = a[index];
 		a[index] = a[a_len - 1 - index];
 		a[a_len - 1 - index] = m;
-		_printf("%d", a[index]);
-		if (index == (n - 1))
-			continue;
-		printf(", ");
 	}
-	printf("\n")
 }
