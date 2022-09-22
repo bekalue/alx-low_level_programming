@@ -1,35 +1,24 @@
-#include "main.h"
+#include "holberton.h"
+
 /**
- * print_number -  prints n elements of an array of integers
- * @n: variable.
+ * print_number - prints an integer;
+ * @n: integer to be printed;
  */
 void print_number(int n)
 {
-	unsigned int numbers;
-	unsigned int positive;
-	unsigned int count;
+	unsigned int n1;
 
 	if (n < 0)
 	{
+		n1 = -n;
 		_putchar('-');
-		numbers = n * -1;
-	}
-	else
+	} else
 	{
-		numbers = n;
+		n1 = n;
 	}
 
-	positive = numbers;
-	count = 1;
+	if (n1 / 10)
+		print_number(n1 / 10);
 
-	while (positive > 9)
-	{
-		positive /= 10;
-		count *= 10;
-	}
-
-	for (; count >= 1; count /= 10)
-	{
-		_putchar(((numbers / count) % 10) + '0');
-	}
+	_putchar((n1 % 10) + '0');
 }
