@@ -1,22 +1,30 @@
 #include "main.h"
 /**
- * rot13 - encodes charcter
- * @str: pointer points to a recieved string
- * Return: str
+ * *rot13 - check the code
+ * @s:  Pointer to a
+ * Return: return s.
  */
-char *rot13(char *str)
+char *rot13(char *s)
 {
-	int index;
+	int i = 0;
+	int n;
 
-	for (index = 0; str[index] != '\0'; index++)
+	char let[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+	char rot[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
+
+	while (s[i] != '\0')
 	{
-		if ((str[index] >= 'a' || str[index] >= 'A') &&
-		(str[index] <= 'm' || str[index] <= 'M'))
-			str[index] += 13;
-		else if ((str[index] >= 'n' || str[index] >= 'N') &&
-		(str[index] <= 'z' || str[index] <= 'Z'))
-			str[index] -= 13;
+		n = 0;
+		while (n < 52)
+		{
+			if (s[i] == let[n])
+			{
+				s[i] = rot[n];
+				break;
+			}
+			n++;
+		}
+		i++;
 	}
-
-	return (str);
+	return (s);
 }
