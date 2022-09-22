@@ -1,5 +1,10 @@
 #include "main.h"
-
+/**
+ * cap_string - change all strings to title
+ * @str: pointer
+ *
+ * Return: str
+ */
 char *cap_string(char *str)
 {
 	int i;
