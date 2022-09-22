@@ -1,51 +1,24 @@
 #include "main.h"
 
 /**
- * print_number - prints an integer
- * @n: number to print
+ * print_number - prints an integer;
+ * @n: integer to be printed;
  */
 void print_number(int n)
 {
-	int count = 0, var = 1;
-	unsigned int out, test;
+	unsigned int n1;
 
 	if (n < 0)
 	{
+		n1 = -n;
 		_putchar('-');
-		out = n * -1;
-	}
-	else
-		out = n;
-	test = out;
-	while (test != 0)
+	} else
 	{
-		test /= 10;
-		count++;
+		n1 = n;
 	}
-	count--;
-	while (count > 0)
-	{
-		var = power(10, count);
-		_putchar((out / var) % 10 + '0');
-		count--;
-	}
-	_putchar(out % 10 + '0');
-}
 
-/**
- * power - sadsad
- * @a: first parameter
- * @b: second parameter
- *
- * Return: an integer
- */
-int power(int a, int b)
-{
-	int result = 1;
+	if (n1 / 10)
+		print_number(n1 / 10);
 
-	for (; b > 0; b--)
-	{
-		result = result * a;
-	}
-	return (result);
+	_putchar((n1 % 10) + '0');
 }
