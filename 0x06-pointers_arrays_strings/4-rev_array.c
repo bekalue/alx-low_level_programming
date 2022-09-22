@@ -8,27 +8,40 @@
  */
 void reverse_array(int *a, int n)
 {
-	int index = 0, a_len = 0;
+	int m, k, index = 0, a_len = 0;
 
 	while (a[index] != '\0')
 	{
 		a_len++;
 		index++;
 	}
+	k = (a_len - 1) / 2;
 
-	for (; index < n && a[index] != '\0'; index++)
+	if (a_len % 2 == 0)
 	{
-		int m;
-
-		m = a[index];
-		a[index] = a[a_len - index];
-		a[a_len - index] = m;
-
-		_printf("%d", a[index]);
-
-		if (index == (n - 1))
-			continue;
-		printf(", ");
+		for (; index < n && index < a_len / 2 ; index++)
+		{
+			m = a[index];
+			a[index] = a[a_len - index];
+			a[a_len - index] = m;
+			_printf("%d", a[index]);
+			if (index == (n - 1))
+				continue;
+			printf(", ");
+		}
 	}
-	_putchar('\n');
+	else
+	{
+		for (; index < n && index < k; index++)
+		{
+			m = a[index];
+                        a[index] = a[a_len - index];
+                        a[a_len - index] = m;
+                        _printf("%d", a[index]);
+                        if (index == (n - 1))
+                                continue;
+                        printf(", ");
+		}
+	}
+	printf("\n");
 }
