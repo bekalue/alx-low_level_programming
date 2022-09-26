@@ -8,8 +8,8 @@
  */
 char *_strchr(char *s, char c)
 {
-	char *ptr=NULL;
-	while (*s != c && *s != NULL)
+	char *ptr = NULL;
+	while (*s = c && *s != NULL)
 		ptr=++s;
 	return (ptr);
 }
