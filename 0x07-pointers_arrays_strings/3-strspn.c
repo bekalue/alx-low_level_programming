@@ -1,5 +1,4 @@
 #include "main.h"
-#include <string.h>
 
 unsigned int _strspn(char *s, char *accept)
 {
@@ -8,12 +7,19 @@ unsigned int _strspn(char *s, char *accept)
 
 	for (i = 0; i < strlen(s); i++)
 	{
+		bool found_match = false;
+
 		for (j = 0; j < strlen(j); j++)
 		{
 			if (s[i] == accept[j])
 			{
-				length++;
+				found_match = true;
+				break;
 			}
+			if (!found_match)
+				break;
+			else
+				length++;
 		}
 	}
 	return (length);
