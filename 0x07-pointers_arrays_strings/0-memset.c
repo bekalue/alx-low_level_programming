@@ -7,14 +7,13 @@
  * @n: number of bytes to be replaced.
  * Return: s.
  */
-
 char *_memset(char *s, char b, unsigned int n)
 {
-	if (s == NULL || n <= 0)
-		return NULL;
-	while(*s != '\0' && n--)
+	while (n > 0)
 	{
-		*s++ = c;
+		*s = b;
+		s++;
+		n--;
 	}
 	return (s);
 }
