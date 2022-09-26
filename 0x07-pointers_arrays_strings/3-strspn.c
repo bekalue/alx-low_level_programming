@@ -1,26 +1,28 @@
 #include "main.h"
-
+/**
+ * _strspn - Entry point
+ * @s: input
+ * @accept: input
+ * Return: Always 0 (Success)
+ */
 unsigned int _strspn(char *s, char *accept)
 {
-	unsigned int length = 0;
-	int i, j;
+	unsigned int n = 0;
+	int r;
 
-	for (i = 0; i < strlen(s); i++)
+	while (*s)
 	{
-		bool found_match = false;
-
-		for (j = 0; j < strlen(j); j++)
+		for (r = 0; accept[r]; r++)
 		{
-			if (s[i] == accept[j])
+			if (*s == accept[r])
 			{
-				found_match = true;
+				n++;
 				break;
 			}
-			if (!found_match)
-				break;
-			else
-				length++;
+			else if (accept[r + 1] == '\0')
+				return (n);
 		}
+		s++;
 	}
-	return (length);
+	return (n);
 }
