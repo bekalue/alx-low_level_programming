@@ -18,4 +18,6 @@ File 8-print_diagsums.c is a function that prints the sum of the two diagonals o
 
 File 9-set_string.c is a function that sets the value of a pointer to a char.
 
+File _putchar.c is a file containing the _putchar function.
+
 File main.h is the header file with the functions prototypes.
