@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * set_string - function that prints the sum of the two diagonals.
- * @s: Pointer.
- * @to: char.
+ * set_string - sets the value of a pointer to a char
+ * @s: pointer to pointer we need to set to
+ * @to: string to set
  */
 void set_string(char **s, char *to)
 {
