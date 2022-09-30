@@ -38,11 +38,9 @@ int main(int argc, char *argv[])
 	num1 = _atoi(argv[1]);
 	num2 = _atoi(argv[2]);
 
-	if (argc == 3)
-	{
-		result = num1 * num2;
-		printf("%d\n", result);
-	}
+	result = num1 * num2;
+	printf("%d\n", result);
+	
 	else if (argc < 3 || argc > 3)
 	{
 		printf("Error\n");
