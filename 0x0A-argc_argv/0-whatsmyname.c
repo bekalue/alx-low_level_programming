@@ -1,6 +1,6 @@
 #include "main.h"
-/*
- * main - a program that prints its name, followed by a new line.
+/**
+ * main - prints the name of the program
  * @argc: argument count
  * @argv: array of argument strings.
  * Return: success (0).
