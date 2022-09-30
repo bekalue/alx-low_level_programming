@@ -43,7 +43,7 @@ int main(int argc, char *argv[])
 		result = num1 * num2;
 		printf("%d\n", result);
 	}
-	else if (arg < 3 || arg > 3)
+	else if (argc < 3 || argc > 3)
 	{
 		printf("Error\n");
 		return (1);
