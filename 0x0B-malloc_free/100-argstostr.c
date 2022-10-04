@@ -1,76 +1,74 @@
 #include "main.h"
-
 /**
- * count_word - helper function to count the number of words in a string
- * @s: string to evaluate
- *
- * Return: number of words
+ * *argstostr - concatenates all the arguments of your program..
+ * @ac: argument count.
+ * @av: argument vector.
+ * Return: str.
  */
-int count_word(char *s)
+char *argstostr(int ac, char **av)
 {
-	int flag, c, w;
+	int n;
+	int length = 1;
+	char *str;
 
-	flag = 0;
-	w = 0;
-
-	for (c = 0; s[c] != '\0'; c++)
+	if (ac == 0 || av == NULL)
 	{
-		if (s[c] == ' ')
-			flag = 0;
-		else if (flag == 0)
-		{
-			flag = 1;
-			w++;
-		}
+		return ('\0');
 	}
-
-	return (w);
+	for (n = 0; n < ac; n++)
+	{
+		length += (_strlen(av[n]) + 1);
+	}
+	str = malloc(length * sizeof(char));
+	str[0] = '\0';
+	for (n = 0; n < ac; n++)
+	{
+		_strcat(str, av[n]);
+	}
+	return (str);
+	free(str);
 }
+
+#include "main.h"
 /**
- * **strtow - splits a string into words
- * @str: string to split
- *
- * Return: pointer to an array of strings (Success)
- * or NULL (Error)
+ * _strlen - check the code
+ * @s: pointer to a
+ * Return: length if success.
  */
-char **strtow(char *str)
+int _strlen(char *s)
 {
-	char **matrix, *tmp;
-	int i, k = 0, len = 0, words, c = 0, start, end;
+	int length = 0;
 
-	while (*(str + len))
-		len++;
-	words = count_word(str);
-	if (words == 0)
-		return (NULL);
-
-	matrix = (char **) malloc(sizeof(char *) * (words + 1));
-	if (matrix == NULL)
-		return (NULL);
-
-	for (i = 0; i <= len; i++)
+	while (*s != '\0')
 	{
-		if (str[i] == ' ' || str[i] == '\0')
-		{
-			if (c)
-			{
-				end = i;
-				tmp = (char *) malloc(sizeof(char) * (c + 1));
-				if (tmp == NULL)
-					return (NULL);
-				while (start < end)
-					*tmp++ = str[start++];
-				*tmp = '\0';
-				matrix[k] = tmp - c;
-				k++;
-				c = 0;
-			}
-		}
-		else if (c++ == 0)
-			start = i;
+		length++;
+		s++;
 	}
+	return (length);
+}
 
-	matrix[k] = NULL;
+#include "main.h"
+/**
+ * *_strcat - check the code
+ * @dest:  Pointers to src
+ * @src: pointer to a variable.
+ * Return: Retorno
+ */
+char *_strcat(char *dest, char *src)
+{
+	int n = 0;
+	int i = 0;
 
-	return (matrix);
+	while (dest[n] != '\0')
+	{
+		n++;
+	}
+	while (src[i] != '\0')
+	{
+		dest[n] = src[i];
+		n++;
+		i++;
+	}
+	dest[n] = '\n';
+	return (dest);
 }
