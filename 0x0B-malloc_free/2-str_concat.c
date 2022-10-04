@@ -11,11 +11,12 @@ char *str_concat(char *s1, char *s2)
 	unsigned int i, j, k, m;
 	char *s;
 
-	if ( s1 || s2)
-	{
-		i = strlen(s1);
-		j = strlen(s2);
-	}
+	i = 0;
+	while (s1 && s1[i])
+		i++;
+	j = 0;
+	while(s2 && s2[j])
+		j++;
 
 	s = malloc((sizeof(char) * (i + j)) + 1);
 	if (s == NULL)
