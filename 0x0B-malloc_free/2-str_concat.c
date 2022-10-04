@@ -4,23 +4,22 @@
  * @s1: a string.
  * @s2: a string.
  *
- * Return: s1.
+ * Return: concatinated string.
  */
 char *str_concat(char *s1, char *s2)
 {
-	unsigned int i, j, k;
+	unsigned int i, j, k, m;
+	char *s;
 
-	i = 0;
-	while (s1[i])
-		i++;
+	i = strlen(s1);
+	j = strlen(s2);
 
-	j = 0;
-	while (s2[j])
-		j++;
+	s = malloc(sizeof(char) * (i + j));
+	for (k = 0; k < i; k++)
+		s[k] = s1[k];
+	for (m = 0; m < j; m++)
+		s[k + m] = s2[m];
+	s[k + m] = '\0';
 
-	for (k = 0; k < j; k++)
-		s1[i + k] = s2[k];
-	s1[i + k] = '\0';
-
-	return (s1);
+	return (s);
 }
