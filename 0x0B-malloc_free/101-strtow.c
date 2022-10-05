@@ -36,7 +36,8 @@ void mallocmem(char **newstr, char *str, int str_len)
 				i++, word_len++;
 			newstr[j] = malloc(sizeof(char) * word_len);
 			newstr[j][word_len] = '\0';
-			j++, word_len = 1
+			j++;
+			word_len = 1;
 		}
 		i++;
 	}
