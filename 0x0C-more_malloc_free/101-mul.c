@@ -78,7 +78,7 @@ int main(int argc, char *argv[])
 		}
 	}
 	s1 = mymalloc(argv[1], strlen(argv[1]));
-	s2 = mymalloc(argv[2], atrlen(argv[2]));
+	s2 = mymalloc(argv[2], strlen(argv[2]));
 	num1 = _atoi(s1);
 	num2 = _atoi(s2);
 
