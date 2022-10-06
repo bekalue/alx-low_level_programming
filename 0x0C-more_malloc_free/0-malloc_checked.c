@@ -13,7 +13,7 @@ void *malloc_checked(unsigned int b)
 	void *s;
 
 	if (b == 0)
-		return (NULL);
+		return (1);
 
 	s = malloc(b);
 
