@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 /**
  * _atoi - Converts a string to an integer.
  * @s: The string to be converted.
@@ -24,6 +25,31 @@ int _atoi(char *s)
 	return (num * sign);
 }
 /**
+ * mymalloc - allocates memory and copies ptr value on that address.
+ * @ptr: a string thats going to be copied.
+ * @size: size of memory to be allocated.
+ * Return: a new allocated address.
+ */
+void *mymalloc(void *ptr, unsigned int size)
+{
+	void *s;
+
+	if (ptr == NULL)
+	{
+		free(ptr);
+		return (NULL);
+	}
+
+	s = malloc(size);
+	if (s == NULL)
+	{
+		free(s);
+		return (NULL);
+	}
+	s = ptr;
+	return (s);
+}
+/**
  * main - calculates the multiple of two numbers fro commandline.
  * @argc: number of argument
  * @argv: array of argument.
@@ -32,6 +58,7 @@ int _atoi(char *s)
 
 int main(int argc, char *argv[])
 {
+	char *s1, *s2;
 	int i, j, num1, num2, mul;
 
 	if (argc < 3 || argc > 3)
@@ -50,12 +77,18 @@ int main(int argc, char *argv[])
 			}
 		}
 	}
-
-	num1 = _atoi(argv[1]);
-	num2 = _atoi(argv[2]);
+	s1 = mymalloc(argv[1], strlen(argv[1]));
+	s2 = mymalloc(argv[2], atrlen(argv[2]));
+	num1 = _atoi(s1);
+	num2 = _atoi(s2);
 
 	mul = num1 * num2;
 
 	printf("%d\n", mul);
+	for (i = 0; i < argc; i++)
+	{
+		free(argv[argc]);
+	}
+	free(argv);
 	return (0);
 }
