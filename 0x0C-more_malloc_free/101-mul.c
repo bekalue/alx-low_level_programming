@@ -72,29 +72,24 @@ int main(int argc, char *argv[])
 			}
 		}
 	}
-	num1 = malloc(strlen(_atoi(a[1])));
+	num1 = malloc(strlen(_atoi(argv[1])));
 	if (num1 == NULL)
 	{
 		free(num1);
 		return (num1);
 	}
-	_memcpy(num1, _atoi(argv[1]), strlen(_atoi(a[1])));
+	_memcpy(num1, _atoi(argv[1]), strlen(_atoi(argv[1])));
 
-	num2 = malloc(strlen(_atoi(a[2])));
+	num2 = malloc(strlen(_atoi(argv[2])));
 	if (num2 == NULL)
 	{
 		free(num2);
 		return (NULL);
 	}
-	_memcpy(num2, _atoi(argv[2]), strlen(_atoi(a[2])));
-	mul = malloc(strlen(_atoi(a[2])) * strlen(_atoi(a[1])));
+	_memcpy(num2, _atoi(argv[2]), strlen(_atoi(argv[2])));
+	mul = malloc(strlen(_atoi(argv[2])) * strlen(_atoi(argv[1])));
 	mul = num1 * num2;
 
 	printf("%d\n", mul);
-	for (i = 0; i < argc; i++)
-	{
-		free(argv[argc]);
-	}
-	free(argv);
 	return (0);
 }
