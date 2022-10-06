@@ -30,13 +30,13 @@ int _atoi(char *s)
  * Return: success(0) or exit if it fails.
  */
 
-int main(unsigned int argc, char *argv[])
+int main(int argc, char *argv[])
 {
-	unsigned int i, j, num1, num2, mul;
+	int i, j, num1, num2, mul;
 
 	if (argc < 3 || argc > 3)
 	{
-		printf("Error/n");
+		printf("Error\n");
 		exit(98);
 	}
 	for (i = 1; i < argc; i++)
