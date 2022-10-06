@@ -36,7 +36,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 		free(s);
 		return(NULL);
 	}
-	_memset(s, 0, nmemb);
+	_memset(s, 0, nmemb * size);
 	
 	return(s);
 }
