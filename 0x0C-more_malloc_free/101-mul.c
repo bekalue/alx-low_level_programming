@@ -33,7 +33,8 @@ int _atoi(char *s)
 
 int main(int argc, char *argv[])
 {
-	int i, j, num1, num2, mul;
+	int i, j;
+	unsigned int num1, num2, mul;
 
 	if (argc < 3 || argc > 3)
 	{
@@ -42,7 +43,7 @@ int main(int argc, char *argv[])
 	}
 	for (i = 1; i < argc; i++)
 	{
-		for (j = 0; argv[i][j]; j++)
+		for (j = 0; argv[i][j] != '\0'; j++)
 		{
 			if (argv[i][j] > '9' || argv[i][j] < '0')
 			{
@@ -57,10 +58,5 @@ int main(int argc, char *argv[])
 	mul = num1 * num2;
 
 	printf("%d\n", mul);
-	for (i = 0; i < argc; i++)
-	{
-		free(argv[argc]);
-	}
-	free(argv);
 	return (0);
 }
