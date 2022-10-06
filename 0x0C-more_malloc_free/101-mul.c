@@ -1,27 +1,6 @@
 #include "main.h"
 #include <string.h>
 /**
- * _memcpy - Copy a string
- * @dest: The destination value
- * @src: The source value
- * @n: The copy limit
- *
- * Return: char value
- */
-char *_memcpy(char *dest, char *src, unsigned int n)
-{
-	int j;
-
-	j = 0;
-	while (n > 0)
-	{
-		dest[j] = src[j];
-		j++;
-		n--;
-	}
-	return (dest);
-}
-/**
  * _atoi - Converts a string to an integer.
  * @s: The string to be converted.
  * Return: The integer value of the converted string.
@@ -55,7 +34,7 @@ int _atoi(char *s)
 int main(int argc, char *argv[])
 {
 	int i, j;
-	int *num1, *num2, *mul;
+	unsigned int num1, num2, mul;
 
 	if (argc < 3 || argc > 3)
 	{
@@ -73,24 +52,9 @@ int main(int argc, char *argv[])
 			}
 		}
 	}
-	num1 = malloc(strlen(_atoi(a[1])));
-	if (num1 == NULL)
-	{
-		free(num1);
-		return (num1);
-	}
-	_memcpy(num1, _atoi(argv[1]), strlen(_atoi(a[1])));
-
-	num2 = malloc(strlen(_atoi(a[2])));
-	if (num2 == NULL)
-	{
-		free(num2);
-		return (NULL);
-	}
-	_memcpy(num2, _atoi(argv[2]), strlen(_atoi(a[2])));
-	mul = malloc(strlen(_atoi(a[2])) * strlen(_atoi(a[1])));
+	num1 = _atoi(argv[1]);
+	num2 = _atoi(argv[2]);
 	mul = num1 * num2;
-
 	printf("%d\n", mul);
 	return (0);
 }
