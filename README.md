@@ -2,4 +2,5 @@
 
 ## ABOUT
 
-This low level programming with c programming language and a little bit of bash Repo.
+This repository contains projects worked with C language while engaged in the [ALX software engineering programme](https://www.alxafrica.com//).
+
