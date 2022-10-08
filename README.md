@@ -1,15 +1,16 @@
 # ALX LOW LEVEL PROGRAMMING.
 
-## ABOUT
+## Description
 
-This repository contains projects worked with C language while engaged in the [ALX software engineering programme](https://www.alxafrica.com//).
+At Alx SE Program, we learn by doing. We have projects everyday that we have to push on GitHub in order for an automatic review to be done. This repository contains directories each corresponding to a low level programming project. These projects are part of the [Alx SE program](https://www.alxafrica.com//) one year curriculum. In these projects, we cover everything from the basics to more advanced topics.
 
 ## Objective
 
 Understand low level programming language like C and Unix system work or “what is
 going on under the hood”
 
-## Author :
+## Author
 
-* **[Bekalu Geta](https://github.com/bekalue) (Solo)**
+* **[Bekalu Geta](https://github.com/bekalue) - Cohort 9**
+
 
