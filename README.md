@@ -11,5 +11,5 @@ going on under the hood”
 
 ## Author :
 
-* **[Bekalu Geta](https://github.com/NwabuezeFranklin) (Solo)**
+* **[Bekalu Geta](https://github.com/bekalue) (Solo)**
 
