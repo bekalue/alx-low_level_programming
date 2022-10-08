@@ -14,6 +14,6 @@ going on under the hood”
 
 ## Author
 
-* **[Bekalu Geta](https://github.com/bekalue) - Cohort 9**
+* **[Bekalu Endrias Geta](https://github.com/bekalue) - Cohort 9**
 
 
