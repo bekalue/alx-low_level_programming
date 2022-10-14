@@ -1,8 +1,6 @@
-#include <stdarg.h>
-#include <stdio.h>
 #include "variadic_functions.h"
 /**
- * print_all - Entry Point
+ * print_all - a function that prints anything.
  * c = char, i = int, f = float, s = char * (if null print (nil))
  * @format: list of arg types
  * Return: 0
