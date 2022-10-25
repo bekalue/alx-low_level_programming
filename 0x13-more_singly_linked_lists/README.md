@@ -13,7 +13,7 @@ Start to look for the right source of information without too much help.
 
 ## Example
 
-Task 0:
+Task 0: [prints all the elements of a listint_t list](https://github.com/bekalue/alx-low_level_programming/blob/master/0x13-more_singly_linked_lists/0-print_listint.c)
 
 `gcc -Wall -pedantic -Werror -Wextra -std=gnu89 0-main.c 0-print_listint.c -o a`
 
@@ -26,7 +26,7 @@ Output:
 -> 2 elements
 ```
 
-task 6:
+task 6: [deletes the head node of a listint_t](https://github.com/bekalue/alx-low_level_programming/blob/master/0x13-more_singly_linked_lists/6-pop_listint.c)
 
 `gcc -Wall -pedantic -Werror -Wextra -std=gnu89 6-main.c 3-add_nodeint_end.c 0-print_listint.c 5-free_listint2.c 6-pop_listint.c -o g`
 
