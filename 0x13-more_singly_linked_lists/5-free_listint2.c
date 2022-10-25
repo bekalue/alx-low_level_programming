@@ -10,8 +10,7 @@ void free_listint2_helper(listint_t *head)
 	{
 		if (head->next)
 			free_listint2_helper(head->next);
-		if (head)
-			free(head);
+		free(head);
 	}
 }
 
