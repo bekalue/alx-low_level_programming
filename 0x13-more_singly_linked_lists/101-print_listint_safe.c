@@ -1,11 +1,13 @@
 #include <stdbool.h>
 #include "lists.h"
-
+ /* This function can print lists with a loop*/
+ /* i can go through the list only once*/
+ /* If the function fails, exits the program with status 98*/
 /**
-* print_listint_safe - prints a linked list
-* @head: points to the beginning of a linked list
-* Return: the number of nodes in a list
-*/
+ * print_listint_safe - prints a linked list
+ * @head: points to the beginning of a linked list
+ * Return: the number of nodes in a list
+ */
 
 size_t print_listint_safe(const listint_t *head)
 {
