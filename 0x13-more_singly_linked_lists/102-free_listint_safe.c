@@ -1,9 +1,11 @@
 #include "lists.h"
-
+/* This function can free lists with a loop*/
+/*You should go though the list only once*/
+/* the function sets the head to NULL*/
 /**
 * free_listint_safe - frees a linked list safely
 * @h: holds a pointer to a pointer of a linked list
-* Return: the size of the list
+* Return: the size of the list that was free’d
 */
 
 size_t free_listint_safe(listint_t **h)
