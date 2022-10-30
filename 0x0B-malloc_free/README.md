@@ -12,6 +12,10 @@ Why and when use malloc
 
 How to use valgrind to check for memory leak
 
+## Compilation
+
+`gcc -Wall -Werror -Wextra -pedantic -std=gnu89`
+
 ## Tasks Completed
 
 + [x] 0\. Float like a butterfly, sting like a bee<br/>_**[0-create_array.c](0-create_array.c)**_ contains a function that creates an array of chars, and initializes it with a specific char.
