@@ -1,33 +1,36 @@
 # 0x06-pointers arrays strings
 
-## more added project to a topics about strings, pointers and array
+![Betty style](https://img.shields.io/badge/betty-style%20guide-purple?style=round-square)
 
-File 0-strcat.c is a function that concatenates two strings.
+## Learning Objective
 
-File 1-strncat.c is a function that concatenates two strings that will use at most n bytes from src.
+What are pointers and how to use them
 
-File 2-strncpy.c is a function that copies a string.
+What are arrays and how to use them
 
-File 3-strcmp.c is a function that compares two strings.
+What are the differences between pointers and arrays
 
-File 4-rev_array.c a function that reverses the content of an array of integers.
+How to use strings and how to manipulate them
 
-File 5-string_toupper.c is a function that changes all lowercase letters of a string to uppercase.
+Scope of variables
 
-File 6-cap_string.c is a function that capitalizes all words of a string.
+## Compilation
 
-File 7-leet.c is a function that encodes a string into 1337.
+`gcc -Wall -Werror -Wextra -pedantic -std=gnu89`
 
-File 100-rot13.c is a function that encodes a string using rot13.
+## Tasks Completed
 
-File 101-print_number.c is a function that prints an integer.
++ [x] 0\. strcat<br/>_**[0-strcat.c](0-strcat.c)**_ contains a function that concatenates two strings.
++ [x] 1\. strncat<br/>_**[1-strncat.c](1-strncat.c)**_ contains a function that concatenates two strings.
++ [x] 2\. strncpy<br/>_**[2-strncpy.c](2-strncpy.c)**_ contains a function that copies a string.
++ [x] 3\. strcmp<br/>_**[3-strcmp.c](3-strcmp.c)**_ contains a function that compares two strings.
++ [x] 4\. I am a kind of paranoid in reverse. I suspect people of plotting to make me happy<br/>_**[4-rev_array.c](4-rev_array.c)**_ contains a function that reverses the content of an array of integers.
++ [x] 5\. Always look up<br/>_**[5-string_toupper.c](5-string_toupper.c)**_ contains a function that changes all lowercase letters of a string to uppercase.
++ [x] 6\. Expect the best. Prepare for the worst. Capitalize on what comes<br/>_**[6-cap_string.c](6-cap_string.c)**_ contains a function that capitalizes all words of a string.
++ [x] 7\. Mozart composed his music not for the elite, but for everybody<br/>_**[7-leet.c](7-leet.c)**_ contains a function that encodes a string into `1337`.
++ [x] 8\. rot13<br/>_**[100-rot13.c](100-rot13.c)**_ contains a function that encodes a string using [`rot13`](https://en.wikipedia.org/wiki/ROT13).
++ [x] 9\. Numbers have life; they're not just symbols on paper<br/>_**[101-print_number.c](101-print_number.c)**_ contains a function that prints an integer.
++ [x] 10\. A dream doesn't become reality through magic; it takes sweat, determination and hard work<br/>_**[102-magic.c](102-magic.c)**_ adds one line to this [code](https://github.com/holbertonschool/make_magic_happen/blob/master/magic.c), so that the program prints `a[2] = 98`, followed by a new line.
++ [x] 11\. It is the addition of strangeness to beauty that constitutes the romantic character in art<br/>_**[103-infinite_add.c](103-infinite_add.c)**_ contains a function that adds two numbers.
++ [x] 12\. Noise is a buffer, more effective than cubicles or booth walls<br/>_**[104-print_buffer.c](104-print_buffer.c)**_ contains a function that prints a buffer.
 
-File 102-magic.c is a program that prints a[2] = 98, followed by a new line.
-
-File 103-infinite_add.c a function that adds two numbers.
-
-File 104-print_buffer.c is a function that prints a buffer.
-
-File _putchar.c is a function that replaces the standard library function putchar().
-
-File main.h is the header file containing all the function prototypes.
