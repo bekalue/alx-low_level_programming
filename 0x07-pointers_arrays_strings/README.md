@@ -2,6 +2,14 @@
 
 ![Betty style](https://img.shields.io/badge/betty-style%20guide-purple?style=round-square)
 
+## Learning Objectives
+
+What are pointers to pointers and how to use them
+
+What are multidimensional arrays and how to use them
+
+What are the most common C standard library functions to manipulate strings
+
 ## Compilation
 
 `gcc -Wall -Werror -Wextra -pedantic -std=gnu89`
