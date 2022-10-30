@@ -8,6 +8,10 @@ How to use the exit function
 
 What are the functions calloc and realloc from the standard library and how to use them
 
+## Compilation
+
+`gcc -Wall -Werror -Wextra -pedantic -std=gnu89`
+
 ## Tasks Completed
 
 + [x] 0\. Trust no one<br/>_**[0-malloc_checked.c](0-malloc_checked.c)**_ contains a function that allocates memory using `malloc`.
