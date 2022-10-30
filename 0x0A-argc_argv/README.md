@@ -10,6 +10,10 @@ What are two prototypes of main that you know of, and in which case do you use o
 
 How to use `__attribute__((unused))` or `(void)` to compile functions with unused variables or parameters
 
+## Compilation
+
+`gcc -Wall -Werror -Wextra -pedantic -std=gnu89`
+
 ## Tasks Completed
 
 + [x] 0\. It ain't what they call you, it's what you answer to<br/>_**[0-whatsmyname.c](0-whatsmyname.c)**_ is a program that prints its name, followed by a new line.
