@@ -1,10 +1,17 @@
 # 0x0E-structures_typedef
 
+![Betty style](https://img.shields.io/badge/betty-style%20guide-purple?style=round-square)
+
 ## Learning Objectives
 
 What are `structures`, when, why and how to use them
 
 How to use `typedef`.
+
+## Compilation
+
+`gcc -Wall -Werror -Wextra -pedantic -std=gnu89`
+
 ## Tasks Completed
 
 + [x] 0\. Poppy<br/>_**[dog.h](dog.h)**_ contains a new type `struct dog with the following elements.
