@@ -1,5 +1,7 @@
 # 0x0D-preprocessor
 
+![Betty style](https://img.shields.io/badge/betty-style%20guide-purple?style=round-square)
+
 ## Learning Objectives
 
 What are macros and how to use them
