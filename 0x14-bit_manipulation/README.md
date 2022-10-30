@@ -2,6 +2,10 @@
 
 This project contains __C__ tasks on how manipulate bits and use bitwise operators.
 
+## Compilation
+
+`gcc -Wall -Werror -Wextra -pedantic -std=gnu89`
+
 ## Tasks Completed
 
 + [x] 0\. 0<br/>_**[0-binary_to_uint.c](0-binary_to_uint.c)**_ contains a function that converts a binary number to an `unsigned int`.
@@ -12,7 +16,3 @@ This project contains __C__ tasks on how manipulate bits and use bitwise operato
 + [x] 5\. 101<br/>_**[5-flip_bits.c](5-flip_bits.c)**_ contains a function that returns the number of bits you would need to flip to get from one number to another.
 + [x] 6\. Endianness<br/>_**[100-get_endianness.c](100-get_endianness.c)**_ contains a function that checks the endianness.
 + [x] 7\. Crackme3<br/>_**[101-password](101-password)**_ contains the password for [this program](https://github.com/holbertonschool/0x13.c/blob/b2dce6991a499f451ffd5b9522ac5d94ecb7bb56/crackme3).
-
-## Compilation
-
-`gcc -Wall -Werror -Wextra -pedantic -std=gnu89 <main.c> <task file> -o <executable program>`
