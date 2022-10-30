@@ -1,6 +1,6 @@
 # 0x14. C - Bit manipulation
 
-This project contains __C__ tasks for learning about bit manipulation.
+This project contains __C__ tasks on how manipulate bits and use bitwise operators.
 
 ## Tasks Completed
 
