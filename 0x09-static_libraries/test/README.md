@@ -1,5 +1,7 @@
 # Test file
 
+![Betty style](https://img.shields.io/badge/betty-style%20guide-purple?style=round-square)
+
 <br/>_**[main.c](main.c)**_ is a test file for static library.
 
 ## Usage
