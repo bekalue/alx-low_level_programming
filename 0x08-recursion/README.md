@@ -1,5 +1,7 @@
 # 0x08-recursion
 
+![Betty style](https://img.shields.io/badge/betty-style%20guide-purple?style=round-square)
+
 ## Learning Objectives
 
 What is recursion
