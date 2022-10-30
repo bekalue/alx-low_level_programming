@@ -1,6 +1,10 @@
 # 0x14. C - Bit manipulation
 
-This project contains __C__ tasks on how manipulate bits and use bitwise operators.
+![Betty style](https://img.shields.io/badge/betty-style%20guide-purple?style=round-square)
+
+## Learning Objectives
+
+How to manipulate bits and use bitwise operators.
 
 ## Compilation
 
