@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
 * read_textfile - reads a text file and prints it to stdout
 * @filename: the file name to read from
@@ -6,35 +7,41 @@
 * Return: the actual number of letters it could read and print
 * otherwise an error return 0
 */
+
 ssize_t read_textfile(const char *filename, size_t letters)
 {
-	int fd, len, res;
-	char *string;
+	int fd, len, i;
+	int res;
+	char *buf;
 
-	if (!filename)
+	if (filename == NULL)
 		return (0);
-	string = malloc(sizeof(char) * letters);
-	if (!string)
-		return (0);
+	/* open */
 
-	/**Open*/
 	fd = open(filename, O_RDONLY);
+
 	if (fd == -1)
 		return (0);
 
-	len = read(fd, string, letters);
-	string[letters] = '\0';
-	len++;
+	buf = malloc(sizeof(char) * letters);
+	if (!buf)
+		return (0);
 
-	/**close*/
+	/* read into buf */
+	read(fd, buf, letters);
+	buf[letters] = '\0';
+
+	for (i = 0; buf[i] != '\0'; i += 1)
+		len += 1;
+
+	/* close */
 	res = close(fd);
 	if (res != 0)
 		exit(-1);
-
-	res = write(STDOUT_FILENO, string, len);
+	res = write(STDOUT_FILENO, buf, len);
 	if (res != len)
 		return (0);
-	free(string);
+	free(buf);
 
 	return (len);
 }
