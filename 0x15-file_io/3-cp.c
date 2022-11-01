@@ -47,7 +47,13 @@ int main(int argc, char **argv)
 }
 
 /**
-* err_98 - checks err_98
+* err_98 - read Discription
+*
+* Description: if file_from does not exist, or if you can not read it,
+* \ it exits with code 98 and prints Error: Can't read from file
+* \ NAME_OF_THE_FILE, followed by a new line, on the POSIX standard error.
+* \ where NAME_OF_THE_FILE is the first argument passed to program.
+*
 * @fd: the return value to check
 * @buf: needed to free if exit
 * @argv: holds the file to print
@@ -64,7 +70,13 @@ void err_98(int fd, char *buf, char *argv)
 }
 
 /**
-* err_99 - checks err_99
+* err_99 - read Description
+*
+* Description: if it can not create or if write to file_to fails,
+* \ it exits with code 99 and prints Error: Can't write to NAME_OF_THE_FILE,
+* \ followed by a new line, on the POSIX standard error.
+* \ where NAME_OF_THE_FILE is the second argument passed to program.
+*
 * @fd: the return value to check
 * @buf: needed to free if exit
 * @argv: holds the file to print
@@ -79,7 +91,13 @@ void err_99(int fd, char *buf, char *argv)
 	}
 }
 /**
-* err_100 - checks err_100
+* err_100 - read Description.
+*
+* Description: if it can not close a file descriptor,
+* \ it exits with code 100 and prints Error: Can't close fd FD_VALUE,
+* \ followed by a new line, on the POSIX standard error.
+* \ where FD_VALUE is the value of the file descriptor.
+*
 * @fd: the return value to check
 * @buf: needed to free if exit
 */
