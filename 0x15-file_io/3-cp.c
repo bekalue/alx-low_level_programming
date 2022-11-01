@@ -2,10 +2,11 @@
 #define BUF_SIZE 1024
 
 /**
-* main - Entry point
+* main - Copies the content of a file to another file.
 * @argc: the number of arguments passed in
 * @argv: a pointer to the array of arguments passed in
-* Return: Always 0 (Success)
+* Return: 0 if successful, otherwise a number between 97 and
+ * 100 (each number represents an error)
 */
 
 int main(int argc, char **argv)
