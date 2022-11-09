@@ -1,3 +1,6 @@
 [submodule "0x14-bit_manipulation/0x13.c"]
 	path = 0x14-bit_manipulation/0x13.c
 	url = https://github.com/holbertonschool/0x13.c.git
+[submodule "simple_shell"]
+	path = simple_shell
+	url = https://github.com/hebaomar94/simple_shell.git
