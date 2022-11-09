@@ -48,7 +48,7 @@ int main(int argc, char **argv)
 }
 
 /**
-* err_98 - read Discription
+* err_98 - read Description
 *
 * Description: if file_from does not exist, or if you can not read it,
 * \ it exits with code 98 and prints Error: Can't read from file
