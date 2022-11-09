@@ -4,3 +4,6 @@
 [submodule "simple_shell"]
 	path = simple_shell
 	url = https://github.com/hebaomar94/simple_shell.git
+[submodule "printf"]
+	path = printf
+	url = https://github.com/bekalue/printf.git
