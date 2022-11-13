@@ -1,5 +1,4 @@
-<!-- ⚠️ This README has been generated from the file(s) "blueprint.md" ⚠️-->
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#ALX LOW LEVEL PROGRAMMING)
+[-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#ALX LOW LEVEL PROGRAMMING)
 
 # ALX LOW LEVEL PROGRAMMING.
 
