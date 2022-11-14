@@ -10,7 +10,7 @@ Basic usage of `ar`, `ranlib`, `nm`
 
 ## Tasks Completed
 
-+ [x] 0\. A library is not a luxury but one of the necessities of life<br/>_**libmy.a**_ is a static library containing the functions below.
++ [x] 0\. A library is not a luxury but one of the necessities of life<br/>_**[libmy.a](libmy.a)**_ is a static library containing the functions below.
 ```c
 int _putchar(char c);
 int _islower(int c);
@@ -33,4 +33,4 @@ unsigned int _strspn(char *s, char *accept);
 char *_strpbrk(char *s, char *accept);
 char *_strstr(char *haystack, char *needle);
 ```
-+ [x] 1\. Without libraries what have we? We have no past and no future<br/>_**create_static_lib.sh**_ creates a static library called `liball.a` from all the `.c` files that are in the current directory.
++ [x] 1\. Without libraries what have we? We have no past and no future<br/>_**[create_static_lib.sh](create_static_lib.sh)**_ creates a static library called `liball.a` from all the `.c` files that are in the current directory.
