@@ -3,8 +3,7 @@
 ![Betty style](https://img.shields.io/badge/betty-style%20guide-purple?style=round-square)
 
 ## Learning Objectives
-
-How to use linked lists
+* How to use linked lists
 
 ## Compilation
 
