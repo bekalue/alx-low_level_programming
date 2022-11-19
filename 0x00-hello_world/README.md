@@ -4,7 +4,7 @@
 
 ## Learning objectives
 
-* Why C programming is awesome
+* Why __C__ programming is awesome
 * Who invented C
 * Who are [Dennis Ritchie](https://en.wikipedia.org/wiki/Dennis_Ritchie), [Brian Kernighan](https://www.youtube.com/watch?v=de2Hsvxaf8M) and Linus Torvalds
 * What happens when you type `gcc main.c`
@@ -20,6 +20,7 @@
 
 ## Resourcess Used
 
+* [0x00. C - Hello, World](https://www.youtube.com/watch?v=co0b0xLEuRM&t=11s)
 * [Why __c__ Programming is Awesome](https://www.youtube.com/watch?v=smGalmxPVYc)
 * [Learning to Program in __c__ Part |](https://www.youtube.com/watch?v=rk2fK2IIiiQ)
 * [Learning to Program in __c__ Part ||](https://www.youtube.com/watch?v=FwpP_MsZWnU)
