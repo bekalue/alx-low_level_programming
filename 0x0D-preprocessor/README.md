@@ -3,12 +3,19 @@
 ![Betty style](https://img.shields.io/badge/betty-style%20guide-purple?style=round-square)
 
 ## Learning Objectives
+* What are macros and how to use them
+* What are the most common predefined macros
+* How to include guard your header files
 
-What are macros and how to use them
-
-What are the most common predefined macros
-
-How to include guard your header files
+## Resources Used
+* [Understanding C program Compilation process](https://www.youtube.com/watch?v=eW5he5uFBNM)
+* [Object-like Macros](https://gcc.gnu.org/onlinedocs/gcc-5.1.0/cpp/Object-like-Macros.html#Object-like-Macros)
+* [Macro-arguments](https://gcc.gnu.org/onlinedocs/gcc-5.1.0/cpp/Macro-Arguments.html#Macro-Arguments)
+* [Pre-Processor Directives](https://www.youtube.com/watch?v=X6HiYbY3Uak)
+* [The C pre-processor](https://www.cprogramming.com/tutorial/cpreprocessor.html)
+* [Standard pre-defined Macros](https://gcc.gnu.org/onlinedocs/gcc-5.1.0/cpp/Standard-Predefined-Macros.html#Standard-Predefined-Macros)
+* [include guards](https://en.wikipedia.org/wiki/Include_guard)
+* [Common Pre-defined Macros](https://gcc.gnu.org/onlinedocs/gcc-5.1.0/cpp/Common-Predefined-Macros.html#Common-Predefined-Macros)
 
 ## Compilation
 
