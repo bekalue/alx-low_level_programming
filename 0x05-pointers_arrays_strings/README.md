@@ -4,15 +4,12 @@
 
 ## Learning Objectives
 
-What are pointers and how to use them
-
-What are arrays and how to use them
-
-What are the differences between pointers and arrays
-
-How to use strings and how to manipulate them
-
-Scope of variables
+* What are pointers and how to use them
+* What are arrays and how to use them
+* What are the differences between [pointers](https://www.tutorialspoint.com/cprogramming/c_pointers.htm) and [arrays](https://www.tutorialspoint.com/cprogramming/c_arrays.htm)
+* How to use [strings](https://www.tutorialspoint.com/cprogramming/c_strings.htm) and how to manipulate them
+* Scope of variables
+* [Memory Layout](https://aticleworld.com/memory-layout-of-c-program/)
 
 ## Compilation
 
