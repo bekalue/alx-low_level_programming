@@ -4,9 +4,11 @@
 
 ## Learning Objectives
 
-What is a static library, how does it work, how to create one, and how to use it
+[Static Library](https://docencia.ac.upc.edu/FIB/USO/Bibliografia/unix-c-libraries.html)
+* What is a static library, how does it work, how to create one, and how to use it
+* Basic usage of `ar`, `ranlib`, `nm`
 
-Basic usage of `ar`, `ranlib`, `nm`
+[Difference b/n Dynamic and Static Library](https://www.youtube.com/watch?v=eW5he5uFBNM)
 
 ## Tasks Completed
 
