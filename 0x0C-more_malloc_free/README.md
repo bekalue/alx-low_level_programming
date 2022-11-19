@@ -4,9 +4,9 @@
 
 ## Learning Objectives
 
-How to use the exit function
-
-What are the functions calloc and realloc from the standard library and how to use them
+* How to use the exit function
+* What are the functions calloc and realloc from the standard library and how to use them
+* Q/A<br/>[casting in malloc](https://stackoverflow.com/questions/605845/do-i-cast-the-result-of-malloc)
 
 ## Compilation
 
