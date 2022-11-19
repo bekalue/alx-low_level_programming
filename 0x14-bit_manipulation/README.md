@@ -4,7 +4,8 @@
 
 ## Learning Objectives
 
-How to manipulate bits and use bitwise operators.
+[Bit Manipulation](https://medium.com/@peejayhack/bitwise-operators-the-hows-and-the-whys-5ccea3abafa3)
+* How to manipulate bits and use bitwise operators.
 
 ## Compilation
 
