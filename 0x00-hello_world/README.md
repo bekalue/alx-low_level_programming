@@ -1,5 +1,23 @@
 # 0x00-hello_world
 
+![Betty style](https://img.shields.io/badge/betty-style%20guide-purple?style=round-square)
+
+## Learning objectives
+
+* Why C programming is awesome
+* Who invented C
+* Who are [Dennis Ritchie](https://en.wikipedia.org/wiki/Dennis_Ritchie), [Brian Kernighan](https://www.youtube.com/watch?v=de2Hsvxaf8M) and Linus Torvalds
+* What happens when you type gcc main.c
+* What is an entry point
+* What is `main`
+* How to print text using `printf`, `puts` and `putchar`
+* How to get the size of a specific type using the unary operator `sizeof`
+* How to compile using `gcc`
+* What is the default program name when compiling with `gcc`
+* What is the official __C__ coding style and how to check your code with [betty-style](https://github.com/holbertonschool/Betty/wiki)
+* How to find the right header to include in your source code when using a standard library function
+* How does the `main` function influence the return value of the program
+
 File 0-preprocessor is a script that runs a C file through the preprocessor and save the result into another file.
 
 File 1-compiler is a script that compiles a C file but does not link.
