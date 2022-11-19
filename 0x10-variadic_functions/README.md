@@ -3,12 +3,15 @@
 ![Betty style](https://img.shields.io/badge/betty-style%20guide-purple?style=round-square)
 
 ## Learning Objectives
+* What are variadic functions
+* How to use `va_start`, `va_arg` and `va_end` macros
+* Why and how to use the `const` type qualifier
 
-What are variadic functions
+## Resources Used
+* [stdarg.h](https://en.wikipedia.org/wiki/Stdarg.h)
+* [Vardiac Functions](https://www.gnu.org/software/libc/manual/html_node/Variadic-Functions.html)
+* [Const Keyword](https://www.youtube.com/watch?v=1W4oyuOdXv8)
 
-How to use va_start, va_arg and va_end macros
-
-Why and how to use the const type qualifier
 ## Compilation
 
 ``
