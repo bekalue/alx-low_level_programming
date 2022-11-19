@@ -4,9 +4,9 @@
 
 ## Learning Objectives
 
-When and why using linked lists vs arrays
-
-How to build and use linked lists
+[Linked List](https://www.geeksforgeeks.org/what-is-linked-list/)
+* When and why using linked lists vs arrays
+* How to build and use linked lists
 
 ## Compilation
 
