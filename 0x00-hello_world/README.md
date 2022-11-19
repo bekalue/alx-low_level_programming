@@ -7,7 +7,7 @@
 * Why C programming is awesome
 * Who invented C
 * Who are [Dennis Ritchie](https://en.wikipedia.org/wiki/Dennis_Ritchie), [Brian Kernighan](https://www.youtube.com/watch?v=de2Hsvxaf8M) and Linus Torvalds
-* What happens when you type gcc main.c
+* What happens when you type `gcc main.c`
 * What is an entry point
 * What is `main`
 * How to print text using `printf`, `puts` and `putchar`
@@ -17,6 +17,17 @@
 * What is the official __C__ coding style and how to check your code with [betty-style](https://github.com/holbertonschool/Betty/wiki)
 * How to find the right header to include in your source code when using a standard library function
 * How does the `main` function influence the return value of the program
+
+## Resourcess Used
+
+* [Why __c__ Programming is Awesome](https://www.youtube.com/watch?v=smGalmxPVYc)
+* [Learning to Program in __c__ Part |](https://www.youtube.com/watch?v=rk2fK2IIiiQ)
+* [Learning to Program in __c__ Part ||](https://www.youtube.com/watch?v=FwpP_MsZWnU)
+* [Understanding __c__ Program Compilation Process](https://www.youtube.com/watch?v=VDslRumKvRA)
+* [Hash-Bang Under the Hood](https://twitter.com/unix_byte/status/1024147947393495040?s=21)
+* [Linus Torvalds on __c__ vs __c++__](http://harmful.cat-v.org/software/c++/linus)
+
+## Tasks Completed
 
 File 0-preprocessor is a script that runs a C file through the preprocessor and save the result into another file.
 
