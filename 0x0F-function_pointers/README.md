@@ -3,12 +3,16 @@
 ![Betty style](https://img.shields.io/badge/betty-style%20guide-purple?style=round-square)
 
 ## Learning Objectives
+* What are function pointers and how to use them
+* What does a function pointer exactly hold
+* Where does a function pointer point to in the virtual memory
 
-What are function pointers and how to use them
-
-What does a function pointer exactly hold
-
-Where does a function pointer point to in the virtual memory
+## Resources Used
+* [Function Pointer in C](https://www.geeksforgeeks.org/function-pointer-in-c/)
+* [Pointers to Function](https://publications.gbdirect.co.uk//c_book/chapter5/function_pointers.html)
+* [Function Pointers in C/C++](https://www.youtube.com/watch?v=ynYtgGUNelE)
+* [Why Pointers to functions](https://www.youtube.com/watch?v=sxTFSDAZM8s)
+* [Everything we need to know about pointers in C](https://boredzo.org/pointers/)
 
 ## Compilation
 
