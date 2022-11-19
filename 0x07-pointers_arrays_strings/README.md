@@ -4,8 +4,8 @@
 
 ## Learning Objectives
 
-* What are pointers to pointers and how to use them
-* What are multidimensional arrays and how to use them
+* What are [pointers to pointers](https://www.tutorialspoint.com/cprogramming/c_pointer_to_pointer.htm) and how to use [them](https://beginnersbook.com/2014/01/c-pointer-to-pointer/)
+* What are [multidimensional arrays](https://www.tutorialspoint.com/cprogramming/c_multi_dimensional_arrays.htm) and how to use [them](https://beginnersbook.com/2014/01/2d-arrays-in-c-example/)
 * What are the most common C standard library functions to manipulate strings
 
 ## Compilation
