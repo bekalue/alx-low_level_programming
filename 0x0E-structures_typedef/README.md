@@ -4,9 +4,14 @@
 
 ## Learning Objectives
 
-What are `structures`, when, why and how to use them
+[Struct](https://en.wikipedia.org/wiki/Struct_(C_programming_language))
+* What are `structures`, when, why and how to use them
 
-How to use `typedef`.
+[Typedef](https://publications.gbdirect.co.uk//c_book/chapter8/typedef.html)
+* How to use `typedef`.
+
+Advanced Topic
+* [The lost art of C structure Packing](http://www.catb.org/esr/structure-packing/)
 
 ## Compilation
 
