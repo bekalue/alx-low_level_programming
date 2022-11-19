@@ -4,11 +4,9 @@
 
 ## Learning Objective
 
-What is [debugging](https://en.wikipedia.org/wiki/Debugging)
-
-What are some [methods of debugging](https://www.thoughtfulcode.com/rubber-duck-debugging-psychology/) manually
-
-How to read the error messages
+* What is [debugging](https://en.wikipedia.org/wiki/Debugging)
+* What are some [methods of debugging](https://www.thoughtfulcode.com/rubber-duck-debugging-psychology/) manually
+* How to read the error messages
 
 ## Compilation
 
