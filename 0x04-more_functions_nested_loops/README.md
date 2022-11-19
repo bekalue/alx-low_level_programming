@@ -4,19 +4,19 @@
 
 ## Learning Objectives
 
-What are nested loops and how to use them
+What are [nested loops](https://www.youtube.com/watch?v=Z3iGeQ1gIss) and how to use them
 
-What is a function and how do you use functions
+What is a [function](https://www.tutorialspoint.com/cprogramming/c_functions.htm) and how do you use [functions](https://www.youtube.com/watch?v=qMlnFwYdqIw)
 
 What is the difference between a declaration and a definition of a function
 
-What is a prototype
+What is a [prototype](https://www.geeksforgeeks.org/what-is-the-purpose-of-a-function-prototype/)
 
 Scope of variables
 
 What are the `gcc` flags `-Wall -Werror -pedantic -Wextra -std=gnu89`
 
-What are header files and how to to use them with `#include`
+What are [header files](https://www.tutorialspoint.com/cprogramming/c_header_files.htm) and how to to use them with `#include`
 
 ## Compilation
 
