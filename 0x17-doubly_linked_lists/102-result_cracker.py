@@ -1,7 +1,10 @@
 #!/usr/bin/python3
-def largest_palindrome_product(n:int):
+def largest_palindrome_product(n: int):
 
-    """Finds the largest palindrome made from the product of two n-digit numbers."""
+    """
+    Finds the largest palindrome made from
+    the product of two n-digit numbers.
+    """
 
     upper_limit = (10 ** n) - 1
     lower_limit = (upper_limit // 10) + 1
@@ -26,3 +29,4 @@ def largest_palindrome_product(n:int):
 
     return max_product
 print(largest_palindrome_product(3))    #  prints largest palindrome made from the product of two 3-digit numbers
+
