@@ -7,3 +7,6 @@
 [submodule "printf"]
 	path = printf
 	url = https://github.com/bekalue/printf.git
+[submodule "0x17-doubly_linked_lists/0x17.c"]
+	path = 0x17-doubly_linked_lists/0x17.c
+	url = https://github.com/holbertonschool/0x17.c.git
