@@ -9,6 +9,6 @@
 * What is a doubly linked list
 * How to use doubly linked lists
 
-## Tasks Completed :right:
+## Tasks Completed ⚓
 
 * [x] 0\.  Print list<br/>_**[0-print_dlistint.c](0-print_dlistint.c)**_ contains a function that prints all the elements of a `dlistint_t` list.
