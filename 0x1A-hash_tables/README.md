@@ -26,3 +26,5 @@
 + [x] 5\. >>> print(ht) <br/>_**[5-hash_table_print.c](5-hash_table_print.c)**_ contains a function that prints a hash table.
 + [x] 6\. >>> del ht <br/>_**[6-hash_table_delete.c](6-hash_table_delete.c)**_ contains a function that deletes a hash table.
 + [x] 7\. $ht['Betty'] = 'Cool' <br/>_**[100-sorted_hash_table.c](100-sorted_hash_table.c)**_ contains rewrites of the previous functions that create a sorted hash table.
+  * [PHP Internals Book: HashTable](https://www.phpinternalsbook.com/php5/hashtables/basic_structure.html)
+  * [PHP](https://www.php.net/manual/en/intro-whatis.php)
