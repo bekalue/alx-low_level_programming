@@ -2,7 +2,7 @@
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#ALX_LOW_LEVEL_PROGRAMMING)
 
 # ALX LOW LEVEL PROGRAMMING
-> 2.75 month study path
+> study path in just 2.75 month time.
 ## Objective
 * Understand low level programming language like C and Unix system work or “what is going on under the hood”
 
