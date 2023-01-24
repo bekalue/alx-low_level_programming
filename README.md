@@ -33,7 +33,7 @@
 | [0x16. C - Simple Shell](./0x16-C_Simple_Shell) | Custom Unix shell interpreter (final project) |
 | [0x17. C - Doubly linked lists](./0x17-doubly_linked_lists) | Creation and traversal of doubly linked lists in C |
 | [0x18. C - Dynamic libraries](./0x18-dynamic_libraries) | Applications of dynamic libraries |
-| [0x19. C - Stacks, Queues - LIFO, FIFO](https://github.com/PierreBeaujuge/monty/) | Custom interpreter for Monty ByteCodes files using stacks/queues |
+| [0x19. C - Stacks, Queues - LIFO, FIFO](./0x19) | Custom interpreter for Monty ByteCodes files using stacks/queues |
 | [0x1A. C - Hash tables](./0x1A-hash_tables) | Implementation of hash tables with djb2 algorithm |
 | [0x1B. C - Sorting algorithms & Big O](./0x1B-sorting_algorithms) | Big O Notation and sorting algorithms |
 
