@@ -1,6 +1,2 @@
-all: compile list
-
-compile:
-	gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o school
-list:
-	ls
+all: main.c school.c
+	gcc -Wall -Wextra -Werror -pedantic -std=gnu89 main.c school.c -o school
