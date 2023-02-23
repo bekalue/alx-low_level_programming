@@ -1,4 +1,4 @@
-CC := gcc
-SRC := main.c school.c
+CC = gcc
+SRC = main.c school.c
 all: main.c school.c
-	${CC} -Wall -Wextra -Werror -pedantic -std=gnu89 ${SRC} -o school
+	@${CC} -Wall -Wextra -Werror -pedantic -std=gnu89 ${SRC} -o school
