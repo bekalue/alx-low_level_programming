@@ -1,6 +1,6 @@
 CC = gcc
 SRC = school.c main.c
-OBJ := ${SRC:.c = .o}
+OBJ = ${SRC:.c = .o}
 NAME = school
 all: ${OBJ}
-	@${CC} ${OBJ} -o ${NAME}
+	@${CC} -Wall -Wextra -Werror -pedantic -std=gnu89 ${OBJ} -o ${NAME}
