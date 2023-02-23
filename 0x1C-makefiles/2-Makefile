@@ -1,0 +1,6 @@
+CC = gcc
+SRC = school.c main.c
+OBJ = school.o main.o
+NAME = school
+all:
+	@${CC} -Wall -Werror -Wextra -pedantic -std=gnu89 ${OBJ} -o ${NAME}
