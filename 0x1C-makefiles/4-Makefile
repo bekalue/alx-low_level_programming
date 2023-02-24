@@ -1,16 +1,17 @@
 CC = gcc
-NAME = school
 SRC = main.c school.c
 OBJ = $(patsubst %.c, %.o, $(SRC))
+NAME = school
 RM = rm
+CFLAGS = -Wall -Werror -Wextra -pedantic
 
 %.o: %.c
-	@${CC} -c $< -o $@
-all: ${OBJ}
-	@${CC} -Wall -Wextra -Werror -pedantic -std=gnu89 ${OBJ} -o ${NAME}
+	@${CC} -c ${CFLAGS} -o $@ $<
+all:
+	@${CC} ${CFLAGS} -o ${NAME}
 clean:
 	@${RM} -f *~ ${NAME}
 oclean:
 	@${RM} -f ${OBJ}
-fclean: oclean clean
+fclean: clean oclean
 re: oclean all
