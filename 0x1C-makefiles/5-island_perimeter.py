@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-"""A module for working with grid structures.
+"""Answer to one of the interview Questions
+A module for working with grid structures.
 """
 
 
