@@ -5,6 +5,7 @@
 > 3 month study path.
 ## Objective
 * Understand low level programming language like C and Unix system work or “what is going on under the hood”
+* Understand and Apply data structures and algorithims.
 
 | Project | Description |
 | :--- | :--- |
