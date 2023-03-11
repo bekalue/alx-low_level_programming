@@ -3,9 +3,9 @@
 /**
  * key_index - Generates the index for a key in a hash table.
  * @key: The key in the hash table.
- * @size: The size of the hash table.
+ * @size: The size of array of the hash table.
  *
- * Return: The index that corresponds to the given key.
+ * Return: the index at which the key/value pair should be stored in the array of the hash table.
  */
 unsigned long int key_index(const unsigned char *key, unsigned long int size)
 {
