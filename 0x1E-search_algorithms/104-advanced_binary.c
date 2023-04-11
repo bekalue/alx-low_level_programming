@@ -32,7 +32,7 @@ int binary_search_recursive(int *array, size_t first_idx,
 	printf("\n");
 
 	half = (first_idx + last_idx) / 2;
-	
+
 	if (value > array[half])
 		return (binary_search_recursive(array, half + 1, last_idx, value));
 	if (value < array[half])
