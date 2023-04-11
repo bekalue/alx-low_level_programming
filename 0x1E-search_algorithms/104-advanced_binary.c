@@ -17,7 +17,7 @@ int binary_search_recursive(int *array, size_t first_idx,
 {
 	size_t half, i;
 
-	if (first_idx > last_idx)
+	if (first_idx > last_idx || !array)
 		return (-1);
 
 	printf("Searching in array: ");
@@ -32,11 +32,19 @@ int binary_search_recursive(int *array, size_t first_idx,
 	printf("\n");
 
 	half = (first_idx + last_idx) / 2;
-	if (array[half] == value && (half == first_idx || array[half - 1] != value))
-		return (half);
-	else if (array[half] >= value)
+	
+	if (value > array[half])
+		return (binary_search_recursive(array, half + 1, last_idx, value));
+	if (value < array[half])
 		return (binary_search_recursive(array, first_idx, half - 1, value));
-	return (binary_search_recursive(array, half + 1, last_idx, value));
+	else
+	{
+		if (array[half] == value && (half == first_idx || array[half - 1] != value))
+			return (half);
+		else
+			return (binary_search_recursive(array, first_idx, half, value));
+	}
+	return (-1);
 }
 
 
