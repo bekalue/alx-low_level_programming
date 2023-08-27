@@ -1,3 +1,5 @@
-# README
+# 0x00-hello_world
+>
+>Project Done in 1 Day
 
-This is the default content for the README.md file.
+![Betty style](https://img.shields.io/badge/betty-style%20guide-purple?style=round-square)

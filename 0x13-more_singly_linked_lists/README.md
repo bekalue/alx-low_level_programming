@@ -1,3 +1,5 @@
-# README
+# 0x13. C - More singly linked lists
+>
+>project done in 2 days
 
-This is the default content for the README.md file.
+![Betty style](https://img.shields.io/badge/betty-style%20guide-purple?style=round-square)

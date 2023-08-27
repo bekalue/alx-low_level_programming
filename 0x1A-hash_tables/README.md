@@ -1,3 +1,5 @@
-# README
+# 0x1A. C - Hash tables
+>
+> Project done in 2 days
 
-This is the default content for the README.md file.
+![Betty style](https://img.shields.io/badge/betty-style%20guide-purple?style=round-square)

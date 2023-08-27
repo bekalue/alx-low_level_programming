@@ -1,3 +1,5 @@
-# README
+# 0x1C. C - Makefiles
+>
+>Project Done in 3 Day
 
-This is the default content for the README.md file.
+![Pep8 style](https://img.shields.io/badge/PEP8-style%20guide-green?style=round-square)

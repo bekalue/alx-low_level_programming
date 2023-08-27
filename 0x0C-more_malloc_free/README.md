@@ -1,3 +1,5 @@
-# README
+# 0x0C-more_malloc_free
+>
+>project done in 1 day
 
-This is the default content for the README.md file.
+![Betty style](https://img.shields.io/badge/betty-style%20guide-purple?style=round-square)
