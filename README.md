@@ -26,19 +26,19 @@
 | [0x0E. C - Structures, typedef](./0x0E-structures_typedef) | Implementation of structs in C |
 | [0x0F. C - Function pointers](./0x0F-function_pointers) | How to use function pointers to write more dynamic programs |
 | [0x10. C - Variadic functions](./0x10-variadic_functions) | Writing functions that can take a variable amount of arguments |
-| [0x11. C - printf](./0x11-printf) | Custom implementation of C's printf (midterm project) |
+| [0x11. C - printf](https://github.com/bekalue/printf) | Custom implementation of C's printf (midterm project) |
 | [0x12. C - Singly linked lists](./0x12-singly_linked_lists) | Creation and traversal of singly linked lists in C |
 | [0x13. C - More singly linked lists](./0x13-more_singly_linked_lists) | Node retrieval, insertion, deletion |
 | [0x14. C - Bit manipulation](./0x14-bit_manipulation) | Use of bitwise operators in C programs |
 | [0x15. C - File I/O](./0x15-file_io) | Open/read/write input/output streams |
-| [0x16. C - Simple Shell](https://github.com/PierreBeaujuge/simple_shell/) | Custom Unix shell interpreter (final project) |
+| [0x16. C - Simple Shell](https://github.com/hebaomar94/simple_shell/) | Custom Unix shell interpreter (final project) |
 | [0x17. C - Doubly linked lists](./0x17-doubly_linked_lists) | Creation and traversal of doubly linked lists in C |
 | [0x18. C - Dynamic libraries](./0x18-dynamic_libraries) | Applications of dynamic libraries |
-| [0x19. C - Stacks, Queues - LIFO, FIFO](https://github.com/PierreBeaujuge/monty/) | Custom interpreter for Monty ByteCodes files using stacks/queues |
+| [0x19. C - Stacks, Queues - LIFO, FIFO](https://github.com/bekalue/monty/) | Custom interpreter for Monty ByteCodes files using stacks/queues |
 | [0x1A. C - Hash tables](./0x1A-hash_tables) | Implementation of hash tables with djb2 algorithm |
 | [0x1B. C - Sorting algorithms & Big O](./0x1B-sorting_algorithms) | Big O Notation and sorting algorithms |
 | [0X1C. C - Makefiles](./0x1C-makefiles) | Makefile Requirements in C |
-| [0x1D. C - Binary trees](./0x1D-binary_trees) | Binary Trees, AVL Trees, Max Heaps |
+| [0x1D. C - Binary trees](https://github.com/bekalue/binary_trees) | Binary Trees, AVL Trees, Max Heaps |
 | [0x1E. C - Search Algorithms](./0x1E-search_algorithms) | Linear, binary, jump, exponential and interpolation searches |
 
 ## Author
